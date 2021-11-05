@@ -1,0 +1,23 @@
+* {
+    font-size:40px;
+}
+
+
+body {
+background-color:aqua;
+border: 2px solid black;
+
+}
+h1{
+    color:blue
+}
+
+#P1{
+    color:burlywood;
+}
+.header{
+    color:yellow;
+}
+#H11{
+    color:violet
+}

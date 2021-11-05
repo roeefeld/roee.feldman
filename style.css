@@ -1,0 +1,16 @@
+body {
+    background-color: yellow;
+    }
+    p {
+    color: blue;
+    text-align: center;
+    }
+    .center {
+    text-align: center;
+    color: blue;
+    }
+    #contact {
+    text-align: center;
+    color: blue;
+    font-family: verdana;
+    }
