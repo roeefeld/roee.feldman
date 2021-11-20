@@ -1,0 +1,46 @@
+div div{
+    border: 1px solid black;
+    height: 100%;
+
+}
+.Grindcontainer{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header'
+    'menu main main right right'
+    'menu main main right right'
+    'menu footer footer footer footer'
+
+
+}
+
+@media only screen and (max-wudth:600px){
+
+    .Grindcontainer{
+        height:90vh;
+        display: grid;
+        grid-template-areas: 
+        'header'
+        'menu'
+        'main'
+        'right'
+        'footer'
+    
+    
+}
+
+.item1{
+    grid-area:header;
+}
+.item2{
+    grid-area:menu;
+}
+.item3{
+    grid-area:main;
+}
+.item4{
+    grid-area: right;
+}
+.item5{
+    grid-area: footer;
+}

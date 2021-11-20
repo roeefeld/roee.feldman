@@ -21,6 +21,9 @@
 
 .box-one {
   background: #8d8b86; 
+  animation-name: blink;
+  animation-iteration-count: 5;
+  animation-duration: 10s;
 }
 
 .box-two {
@@ -54,4 +57,8 @@
       width: 100%;
       background: #d4b815; 
   }
+}
+@keyframes blink {
+  from {background-color: #5f7c72 }
+  to {background-color: rgb(233, 211, 222) }
 }

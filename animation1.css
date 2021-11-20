@@ -1,0 +1,26 @@
+/*img {
+    width: 500px ;
+    align-self: center;
+}
+*/
+
+div {
+    height: 96vh;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    height: 20%;
+    font-size: 50px;
+    background-color: burlywood;
+    animation-name: blink ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    from {background-color:yellow;}
+    to {background-color: white;}
+}
